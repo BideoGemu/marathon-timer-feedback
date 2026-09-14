@@ -1,0 +1,62 @@
+name: 💡 Feature request
+description: Suggest an improvement or a new feature for Marathon-Timer.
+title: "[Idea] "
+labels: ["enhancement"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Got an idea to make Marathon-Timer better? Tell us!
+        🇫🇷 Les suggestions en français sont les bienvenues.
+
+  - type: textarea
+    id: problem
+    attributes:
+      label: What would you like to do?
+      description: Describe your need, or what bothers you today.
+      placeholder: "Example: I stream on Kick and YouTube at the same time and would like one goal counting both."
+    validations:
+      required: true
+
+  - type: textarea
+    id: solution
+    attributes:
+      label: How do you picture it?
+      description: Describe the feature as you imagine it.
+    validations:
+      required: true
+
+  - type: textarea
+    id: alternatives
+    attributes:
+      label: How do you manage today?
+      description: Optional. A workaround, or another tool that already does it.
+    validations:
+      required: false
+
+  - type: dropdown
+    id: platforms
+    attributes:
+      label: Related platform(s)
+      multiple: true
+      options:
+        - Twitch
+        - YouTube
+        - Kick
+        - TikTok
+        - Streamlabs
+        - TipeeeStream
+        - StreamElements
+        - Ko-fi
+        - NineStore
+        - Not platform-related
+    validations:
+      required: false
+
+  - type: checkboxes
+    id: search
+    attributes:
+      label: Before submitting
+      options:
+        - label: I searched the existing issues and this idea has not been suggested yet.
+          required: true
