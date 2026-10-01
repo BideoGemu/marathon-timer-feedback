@@ -7,7 +7,8 @@ body:
     attributes:
       value: |
         Got an idea to make Marathon-Timer better? Tell us!
-        🇫🇷 Les suggestions en français sont les bienvenues.
+        Please write in **English** or **French**. Issues in other languages are machine-translated and may be misunderstood.
+        🇫🇷 Écris en **anglais** ou en **français** : les autres langues sont traduites automatiquement et risquent d'être mal comprises.
 
   - type: textarea
     id: problem
