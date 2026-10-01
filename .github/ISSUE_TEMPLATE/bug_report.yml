@@ -7,7 +7,8 @@ body:
     attributes:
       value: |
         Thanks for taking the time to report a bug! The more precise you are, the faster it gets fixed.
-        🇫🇷 Les signalements en français sont les bienvenus.
+        Please write in **English** or **French**. Issues in other languages are machine-translated and may be misunderstood.
+        🇫🇷 Écris en **anglais** ou en **français** : les autres langues sont traduites automatiquement et risquent d'être mal comprises.
 
   - type: textarea
     id: description
