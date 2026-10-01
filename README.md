@@ -2,7 +2,9 @@
 
 Bug reports and feature requests for **[Marathon-Timer](https://www.marathon-timer.com/)**, the free subathon timer and goals manager for Twitch, YouTube and Kick.
 
-> 🇫🇷 Les signalements et suggestions en français sont les bienvenus.
+> 🌍 Please write your issue in **English** or **French**. Issues in other languages are machine-translated and may be misunderstood.
+>
+> 🇫🇷 Rédige ton signalement ou ta suggestion en **anglais** ou en **français** : les autres langues sont traduites automatiquement et risquent d'être mal comprises.
 
 This repository only hosts issues. The source code of the application is not published here.
 
